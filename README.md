@@ -20,13 +20,15 @@ Esmase ülevaate saamiseks vaatan 23. juuni sademete hulka aastate lõikes. Selg
 Tõenäosused arvutan sagedusena ehk osakaaluna kõikidest vaatlustest. Kokku on 22 aasta ööpäevased vaatlused. See tähendab, et baastase arvutatakse 660 vaatluse põhjal ning iga konkreetse kuupäeva tõenäosus 22 aasta vaatluse põhjal. Tulemused visualiseerin graafikutel.
 
 ### Tulemused
-Jaanipäeval on saju tõenäosus kõigi lävendite korral veidi suurem kui juunikuu üldine baastase. 
+Jaanipäeval on saju tõenäosus kõigi lävendite korral veidi suurem kui juunikuu üldine baastase.
+![Jaanipäev vs juuni](Figures/jaanipaev_vs_juuni.png)
 Suurim  erinevus on tugeva saju korral (>10 mm). Jaanipäev kuulub sel juhul pigem kõrgema sajutõenäosusega päevade hulka, kuid ei eristu selles grupis teistest päevadest.
+![Tugev sadu päevade lõikes](Figures/tugev_sadu_paevade_loikes.png)
 
 ### Kuida notebooki kasutada
 Ava fail Ilmaandmed_Clean.ipynb Jupyter Notebookis või JupyterLabis ja käivita kõik cellid (Run all). Analüüs on tehtud Pythonis (Anaconda, Jupyter Notebook). Vajalikud on Pythoni teegid:  pandas, numpy ja matplotlib.
-Edasised võimalused
 
+### Edasised võimalused
 Andmed laadisin alla käsitsi Ilmateenistuse veebist ja teisendasin peale kontrollimist CSV-formaati. Ilmateenistus pakub osaliselt ka API-põhist ligipääsu, mida oleks võimalik kasutada andmete automaatseks laadimiseks.
 
 Andmete puhastamise ja ettevalmistuse tegin selles töös analüüsi käigus samm-sammult. Seda oleks võimalik edasi arendada, et andmete laadimine ja puhastamine toimiks ühtse voona.
