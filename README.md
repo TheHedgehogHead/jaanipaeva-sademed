@@ -21,9 +21,9 @@ Tõenäosused arvutan sagedusena ehk osakaaluna kõikidest vaatlustest. Kokku on
 
 ### Tulemused
 Jaanipäeval on saju tõenäosus kõigi lävendite korral veidi suurem kui juunikuu üldine baastase.
-![Jaanipäev vs juuni](Figures/jaanipaev_vs_juuni.png)
+<img src="Figures/jaanipaev_vs_juuni.png" width="600">
 Suurim  erinevus on tugeva saju korral (>10 mm). Jaanipäev kuulub sel juhul pigem kõrgema sajutõenäosusega päevade hulka, kuid ei eristu selles grupis teistest päevadest.
-![Tugev sadu päevade lõikes](Figures/tugev_sadu_paevade_loikes.png)
+<img src="Figures/tugev_sadu_paevade_loikes.png" width="600">
 
 ### Kuida notebooki kasutada
 Ava fail Ilmaandmed_Clean.ipynb Jupyter Notebookis või JupyterLabis ja käivita kõik cellid (Run all). Analüüs on tehtud Pythonis (Anaconda, Jupyter Notebook). Vajalikud on Pythoni teegid:  pandas, numpy ja matplotlib.
