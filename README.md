@@ -21,8 +21,10 @@ Tõenäosused arvutan sagedusena ehk osakaaluna kõikidest vaatlustest. Kokku on
 
 ### Tulemused
 Jaanipäeval on saju tõenäosus kõigi lävendite korral veidi suurem kui juunikuu üldine baastase.
-<img src="Figures/jaanipaev_vs_juuni.png" width="600">
+<img src="Figures/jaanipaev_vs_juuni.png" width="400">
+
 Suurim  erinevus on tugeva saju korral (>10 mm). Jaanipäev kuulub sel juhul pigem kõrgema sajutõenäosusega päevade hulka, kuid ei eristu selles grupis teistest päevadest.
+
 <img src="Figures/tugev_sadu_paevade_loikes.png" width="600">
 
 ### Kuida notebooki kasutada
